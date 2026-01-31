@@ -2,9 +2,9 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        int account = 100;
-        int amount = 2000;
-        int bonus;
+        int account = 100; // Сумма на счету до пополнения
+        int amount = 2000; // Сумма пополнения
+        int bonus; // Бонусы начисляемые после пополнения
         if (amount > 1000) {
             bonus = amount / 100;
         } else {
