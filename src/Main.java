@@ -10,8 +10,8 @@ public class Main {
         } else {
             bonus = 0;
         }
-        int x = account + amount + bonus;
-        System.out.println("Итоговый счет: " + x + " Количесво начисленых бонусов: "+ bonus);
+        int totalAmount = account + amount + bonus;
+        System.out.println("Итоговый счет: " + totalAmount + " Количесво начисленых бонусов: "+ bonus);
 
 
     }
